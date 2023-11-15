@@ -13,6 +13,11 @@
                                                                 
 
                                                                              
+
+                 
+                               
+                                                                     
+
            
 
     <ScrollView
@@ -173,7 +178,9 @@
                 style="@style/Widget.Order.Button.Cancel"
                 app:layout_constraintEnd_toStartOf="@id/next_button"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/next_button" />
+                app:layout_constraintTop_toTopOf="@id/next_button"
+                android:tag="binding_13"                             
+                />
 
             <!-- TODO: go to the next screen when clicked -->
             <Button
@@ -182,7 +189,9 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cancel_button"
-                app:layout_constraintTop_toBottomOf="@id/subtotal" />
+                app:layout_constraintTop_toBottomOf="@id/subtotal"
+                android:tag="binding_14"                                
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

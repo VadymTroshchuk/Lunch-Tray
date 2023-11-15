@@ -9,6 +9,20 @@
 
     <!-- TODO: Add the data binding variables of the type OrderViewModel and the CheckoutFragment -->
 
+    
+                 
+                            
+                                                                
+
+
+
+                 
+                                   
+                                                                     
+
+           
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" android:tag="layout/fragment_checkout_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layout_checkout" tools:context=".ui.order.CheckoutFragment">
