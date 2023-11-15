@@ -1,0 +1,529 @@
+# 2023-11-15T09:12:24.948Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 9
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_start_order_from_checkout"
+    start_time {
+      seconds: 1700039523
+      nanos: 210000000
+    }
+    end_time {
+      seconds: 1700039525
+      nanos: 292000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230857> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_checkout(NavigationTests.kt:200)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230857> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_checkout(NavigationTests.kt:200)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_start_order_from_checkout.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_start_order_from_entree_menu"
+    start_time {
+      seconds: 1700039526
+      nanos: 254000000
+    }
+    end_time {
+      seconds: 1700039527
+      nanos: 214000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230935> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_entree_menu(NavigationTests.kt:83)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230935> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_entree_menu(NavigationTests.kt:83)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_start_order_from_entree_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_checkout_from_accompaniment_menu"
+    start_time {
+      seconds: 1700039528
+      nanos: 103000000
+    }
+    end_time {
+      seconds: 1700039529
+      nanos: 912000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230768> but was:<2131230857>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_checkout_from_accompaniment_menu(NavigationTests.kt:182)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230768> but was:<2131230857>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_checkout_from_accompaniment_menu(NavigationTests.kt:182)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_checkout_from_accompaniment_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_entree_menu_from_start_order"
+    start_time {
+      seconds: 1700039530
+      nanos: 986000000
+    }
+    end_time {
+      seconds: 1700039532
+      nanos: 561000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131231205> but was:<2131230935>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_entree_menu_from_start_order(NavigationTests.kt:58)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131231205> but was:<2131230935>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_entree_menu_from_start_order(NavigationTests.kt:58)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_entree_menu_from_start_order.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_start_order_from_checkout_via_submit"
+    start_time {
+      seconds: 1700039534
+      nanos: 508000000
+    }
+    end_time {
+      seconds: 1700039536
+      nanos: 468000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230857> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_checkout_via_submit(NavigationTests.kt:218)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230857> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_checkout_via_submit(NavigationTests.kt:218)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_start_order_from_checkout_via_submit.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_start_order_from_accompaniment_menu"
+    start_time {
+      seconds: 1700039537
+      nanos: 398000000
+    }
+    end_time {
+      seconds: 1700039538
+      nanos: 202000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230768> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_accompaniment_menu(NavigationTests.kt:163)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230768> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_accompaniment_menu(NavigationTests.kt:163)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_start_order_from_accompaniment_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_accompaniment_menu_from_side_menu"
+    start_time {
+      seconds: 1700039539
+      nanos: 90000000
+    }
+    end_time {
+      seconds: 1700039540
+      nanos: 21000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131231170> but was:<2131230768>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_accompaniment_menu_from_side_menu(NavigationTests.kt:144)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131231170> but was:<2131230768>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_accompaniment_menu_from_side_menu(NavigationTests.kt:144)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_accompaniment_menu_from_side_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_start_order_from_side_menu"
+    start_time {
+      seconds: 1700039540
+      nanos: 904000000
+    }
+    end_time {
+      seconds: 1700039541
+      nanos: 776000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131231170> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_side_menu(NavigationTests.kt:126)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131231170> but was:<2131231205>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_start_order_from_side_menu(NavigationTests.kt:126)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_start_order_from_side_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.lunchtray"
+    test_method: "navigate_to_side_menu_from_entree_menu"
+    start_time {
+      seconds: 1700039542
+      nanos: 644000000
+    }
+    end_time {
+      seconds: 1700039543
+      nanos: 547000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: expected:<2131230935> but was:<2131231170>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_side_menu_from_entree_menu(NavigationTests.kt:108)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: expected:<2131230935> but was:<2131231170>\nat org.junit.Assert.fail(Assert.java:88)\nat org.junit.Assert.failNotEquals(Assert.java:834)\nat org.junit.Assert.assertEquals(Assert.java:118)\nat org.junit.Assert.assertEquals(Assert.java:144)\nat com.example.lunchtray.NavigationTests.navigate_to_side_menu_from_entree_menu(NavigationTests.kt:108)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\logcat-com.example.lunchtray.NavigationTests-navigate_to_side_menu_from_entree_menu.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\android\\Lunch-tray\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_6_API_31(AVD) - 12\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
